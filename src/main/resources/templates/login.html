@@ -135,10 +135,9 @@
                 url:window.location.protocol+'//'+window.location.host+'/login',
                 dataType:'json',
                 data: {
-                    'username':loginPassword,
+                    'username':loginUsername,
                     'password':loginPassword,
                 },
-                contentType:'application/json',
                 success:function (data) {
                     layer.close(loginLoadIndex);
                     window.location.href = './index.html';
