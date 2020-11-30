@@ -12,7 +12,7 @@ public class LoginController {
 
     @RequestMapping("/loginpage")
     public String loginpage() {
-        return "login";
+        return "login1";
     }
 
     @RequestMapping("/login")
