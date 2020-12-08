@@ -1,4 +1,4 @@
-package com.myao.demo;
+package com.myao.exam;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -7,12 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author 46420
  */
-@MapperScan(basePackages = "com.myao.demo.mapper")
+@MapperScan(basePackages = "com.myao.exam.mapper")
 @SpringBootApplication
-public class DemoApplication {
+public class ExamApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(ExamApplication.class, args);
     }
 
 }
