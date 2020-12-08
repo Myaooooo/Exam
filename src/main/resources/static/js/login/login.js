@@ -8,7 +8,7 @@
     $('#loginCode').click(function () {
     createCode('#loginCode');
 });
-    // 登陆事件
+    // 登录事件
     $('#loginBtn').click(function () {
     login();
 });
