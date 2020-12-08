@@ -1,4 +1,4 @@
-package com.myao.demo.config;
+package com.myao.exam.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

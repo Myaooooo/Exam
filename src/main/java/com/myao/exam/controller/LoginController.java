@@ -1,4 +1,4 @@
-package com.myao.demo.controller;
+package com.myao.exam.controller;
 
 import com.myao.demo.entity.User;
 import org.springframework.stereotype.Controller;
