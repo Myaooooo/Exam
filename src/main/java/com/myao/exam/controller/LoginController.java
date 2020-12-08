@@ -3,6 +3,7 @@ package com.myao.exam.controller;
 
 import com.myao.exam.entity.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -15,10 +16,9 @@ public class LoginController {
         return "register";
     }
 
-    @RequestMapping("/login")
-    @ResponseBody
+    @GetMapping("/login")
     public String  login(User user){
         System.out.println(user);
-        return "登陆成功";
+        return "/index";
     }
 }
