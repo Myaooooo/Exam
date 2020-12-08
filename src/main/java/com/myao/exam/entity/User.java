@@ -1,4 +1,4 @@
-package com.myao.demo.entity;
+package com.myao.exam.entity;
 
 public class User {
 

@@ -1,9 +1,8 @@
-package com.myao.demo.mapper;
+package com.myao.exam.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.myao.demo.entity.User;
-
+import com.myao.exam.entity.User;
 
 public interface LoginMapper extends BaseMapper<User> {
 

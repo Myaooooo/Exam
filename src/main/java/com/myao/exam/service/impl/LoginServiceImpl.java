@@ -1,9 +1,10 @@
-package com.myao.demo.service.impl;
+package com.myao.exam.service.impl;
+
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.myao.demo.entity.User;
-import com.myao.demo.mapper.LoginMapper;
-import com.myao.demo.service.LoginService;
+import com.myao.exam.entity.User;
+import com.myao.exam.mapper.LoginMapper;
+import com.myao.exam.service.LoginService;
 import org.springframework.stereotype.Service;
 
 @Service

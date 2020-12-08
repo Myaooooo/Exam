@@ -1,6 +1,7 @@
 package com.myao.exam.controller;
 
-import com.myao.demo.entity.User;
+
+import com.myao.exam.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
