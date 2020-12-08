@@ -13,8 +13,11 @@ repositories {
 }
 
 dependencies {
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.22'
+    compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.4.1'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'com.baomidou:mybatis-plus'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 test {
