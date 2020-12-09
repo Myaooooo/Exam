@@ -1,11 +1,13 @@
 package com.myao.exam.controller;
 
+
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import java.net.HttpURLConnection;
+
 
 @Controller
 public class TestController {
-
+    HttpURLConnection connection = null;
 
         public static void main(String[] args){
             Integer i01=59;
