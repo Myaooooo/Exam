@@ -5,7 +5,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
-public class MyMvcConfig implements WebMvcConfigurer {
+public class MvcConfig implements WebMvcConfigurer {
         /**
          * 拦截某个请求跳转固定位置
          *
