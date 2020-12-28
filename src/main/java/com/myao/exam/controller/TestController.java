@@ -2,6 +2,10 @@ package com.myao.exam.controller;
 
 
 import org.springframework.stereotype.Controller;
+import org.springframework.util.ResourceUtils;
+
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.net.HttpURLConnection;
 
 
@@ -9,15 +13,10 @@ import java.net.HttpURLConnection;
 public class TestController {
     HttpURLConnection connection = null;
 
-        public static void main(String[] args){
-            Integer i01=59;
-            int i02=59;
-            Integer i03=Integer.valueOf(59);
-            Integer i04=new Integer(59);
-            System.out.println(i01==i02);
-            System.out.println(i01==i03);
-            System.out.println(i03==i04);
-            System.out.println(i02==i04);
+        public static void main(String[] args) throws FileNotFoundException {
+            //获取文件路径
+            File file = ResourceUtils.getFile( "classpath:static/images/bg.jpg");
+            System.out.println(file.getAbsolutePath());
     }
 
 
